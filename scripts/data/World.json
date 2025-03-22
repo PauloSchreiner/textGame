@@ -1,0 +1,40 @@
+{
+    "Locations": [
+      {
+        "id": "forest_1",
+        "name": "Dark Forest",
+        "region": "Northern Wilderness",
+        "description": "A dense, shadowy forest with towering trees and an eerie silence. The air is thick with the scent of pine and damp earth.",
+        "exits": {
+            "N": "You cannot go there because there's a huge wall blocking the way.",
+            "S": "You cannot go there because there's a huge wall blocking the way.",
+            "E": "You cannot go there because there's a huge wall blocking the way.",
+            "W": "You cannot go there because there's a huge wall blocking the way."
+        },
+        "items": [
+          {
+            "id": "rusty_sword",
+            "name": "Rusty Sword",
+            "description": "An old, corroded sword that has seen better days. It might still be useful in a fight."
+          },
+          {
+            "id": "healing_herb",
+            "name": "Healing Herb",
+            "description": "A small bundle of medicinal herbs. Can be used to restore a small amount of health."
+          }
+        ],
+        "fixtures": [
+          {
+            "id": "old_oak_tree",
+            "name": "Old Oak Tree",
+            "description": "A massive oak tree with gnarled branches. Carved into its bark are strange symbols."
+          },
+          {
+            "id": "broken_cart",
+            "name": "Broken Cart",
+            "description": "A wooden cart, overturned and splintered. It looks like it was abandoned in a hurry."
+          }
+        ]
+      }
+    ]
+  }
