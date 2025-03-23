@@ -23,7 +23,7 @@ CREATE FUNCTION TO REMOVE CACHE?
 
 
 // Loads JSON file containing Locations (and their Items and Fixtures). 
-export async function loadWorld() {
+async function loadWorld() {
     console.log('loadWorld running');
     const response = await fetch('scripts/data/World.json');
     const data = await response.json();
